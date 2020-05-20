@@ -1,0 +1,77 @@
+/* 
+  SEPARATED WITH COMMENTS DUE TO BEING IN ONE FILE
+*/
+
+/* App */
+.app__container {
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.app__inner {
+  width: 325px;
+  height: 325px;
+  padding: 2rem;
+  box-shadow: 5px 5px 10px rgba(240, 240, 240, 0.75);
+}
+
+.app__title {
+  margin-bottom: 2rem;
+}
+
+.app__subtitle {
+  margin-bottom: 2rem;
+}
+
+/* Buttons */
+.btn {
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: 0.75rem;
+  background-color: transparent;
+  font-size: inherit;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Flex */
+.flex {
+  display: flex;
+}
+
+.flex--stack {
+  flex-direction: column;
+}
+
+.flex--centre {
+  justify-content: center;
+}
+
+.flex--v-centre {
+  align-items: center;
+}
+
+/* Form */
+.form__input {
+  margin-bottom: 1rem;
+}
+
+/* Inputs */
+.input {
+  background-color: transparent;
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: inherit;
+  transition: all 0.2s ease-in-out;
+}
+
+.input:hover::placeholder {
+  color: #fff;
+}
+
+/* Interactable */
+.interactable:hover {
+  color: #fff;
+  background-color: #333;
+  cursor: pointer;
+}

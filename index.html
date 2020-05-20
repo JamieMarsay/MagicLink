@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./index.css" rel="stylesheet"></link>
+    <title>Magic Link</title>
+  </head>
+  <body class="app__container flex flex--stack flex--centre flex--v-centre">
+    <main class="app__inner">
+      <h1 class="app__title">Magic Link</h1>
+      <h3 class="app__subtitle">Enter your email address below to receive your magic link!</h3>
+      <form class="form flex flex--stack"  action="http://localhost:3000/login" method="get">
+        <input required class="input form__input interactable" placeholder="Enter your email address" name="email" />
+        <input class="form__btn btn interactable" type="submit" value="Login" />
+      </form>
+    </main>
+  </body>
+</html>
