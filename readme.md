@@ -12,7 +12,7 @@ Once started, the server will be listening on localhost:3000 and then you'll nee
 
 I've found this task to be more focussed on backend technologies and principles, and as I'm a front-end devleoper, I've done what I believe to be correct in the time given.
 
-I'm sure there are plenty of things that I could have done differently or improved (such as storing the token in local storage or using environment variables to store JWT secrets etc) in the server, mailer and JWT setup.
+There are plenty of things that I would have done differently or improved with more time (such as storing the token in local storage or using environment variables to store JWT secrets etc) in the server, mailer and JWT setup.
 
 With regards to frontend improvements, with more time I would have used SCSS, Webpack and React to build reusable components, modularise my CSS and create utility classes for things such as padding and margin along with minifcation of both CSS/JSS.
 
